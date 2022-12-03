@@ -1,5 +1,6 @@
 # Diploma Project
 
+```
 Usage: VirtualRayLights.exe [ -s <scene_id> | -spp <samples_per_pixel> | -vrlps <vrl_per_sample> | -is <importance_sampling_strategy> | -b <bounces> | -sa <sigma_a> | -ss <sigma_s> | -g <henyey_greenstein> | -i <light_intensity> | -mr <medium_radiance> | -sr <surface_radiance> ]
 
         -s      selects a scene (default 0):
@@ -24,3 +25,4 @@ Usage: VirtualRayLights.exe [ -s <scene_id> | -spp <samples_per_pixel> | -vrlps 
         -i      the intensity of the light
         -mr     option for medium radiance (default true): true / false
         -sr     option for surface radiance (default true): true / false
+```
