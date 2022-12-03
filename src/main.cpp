@@ -692,7 +692,7 @@ int main(int argc, char* argv[]) {
 			help += "\t-s\tselects a scene (default 0):\n\t\t\t0\tcornell box with directional lights\n\t\t\t1\tbidirectional VRLs\n\t\t\t2\tunidirectional VRLs\n\t\t\t3\tmedium radiance test\n\t\t\t4\tsurface radiance test\n\t\t\t5\tmedia cube\n";
 			help += "\t-spp\tsamples per pixel\n";
 			help += "\t-vrlps\tVRLs per sample\n";
-			help += "\t-is\tselects the importance sampling techniques for the light / camera rays (default 4):\n\t\t\t0\tuniform / uniform\n\t\t\t1\texponential / exponential\n\t\t\t2\tuniform / equi-angular\n\t\t\t3\tsimple joint distribution\n\t\t\t4\tadvanced joint distribution\n";
+			help += "\t-is\tselects the importance sampling techniques for the light / camera rays (default 4):\n\t\t\t0\tuniform / uniform\n\t\t\t1\texponential / exponential\n\t\t\t2\tuniform / equi-angular\n\t\t\t3\tsimple joint distribution\n\t\t\t4\tadvanced joint distribution\n\t\t\t5\tproduct of Gaussian distributions\n\t\t\t6\tproduct of Cauchy distributions\n\t\t\t7\tMixture Model with Cauchy distributions\n\t\t\t8\tMixture Model with Gaussian distributions\n\t\t\t9\tMixture Model with Hyperbolic Secant distributions\n\t\t\t10\tMixture Model with Logistic distributions\n";
 			help += "\t-b\tnumber of allowed light bounces\n";
 			help += "\t-sa\tsigma_a\n";
 			help += "\t-ss\tsigma_s\n";

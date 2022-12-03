@@ -18,6 +18,12 @@ Usage: VirtualRayLights.exe [ -s <scene_id> | -spp <samples_per_pixel> | -vrlps 
                         2       uniform / equi-angular
                         3       simple joint distribution
                         4       advanced joint distribution
+                        5       product of Gaussian distributions
+                        6       product of Cauchy distributions
+                        7       Mixture Model with Cauchy distributions
+                        8       Mixture Model with Gaussian distributions
+                        9       Mixture Model with Hyperbolic Secant distributions
+                        10      Mixture Model with Logistic distributions
         -b      number of allowed light bounces
         -sa     sigma_a
         -ss     sigma_s
